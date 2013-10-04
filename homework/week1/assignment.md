@@ -25,7 +25,7 @@ Proceed to push that to your remote git repository on github.
 
     git push
 
-Write your sentence here:
+Write your sentence here: "How high is the sky?"
 
 
 ## 1. Play through the first three levels of [Manufactoria](http://pleasingfungus.com/Manufactoria/)
@@ -51,6 +51,8 @@ prefer).  The third level in particular is a LOT trickier than the
 first two, so don't be surprised if it takes longer.
 
 
+
+
 ## 2. Low-level programming
 
 In lecture, we put up the memory layout of a computer program to do
@@ -66,9 +68,9 @@ number stored in this slot":
     05: output [11]
     06:
     07:
-    10: 12
-    11: 15
-    12:
+    10: 15
+    11: 3
+    12: 3
     13:
     14:
     15:
@@ -76,7 +78,7 @@ number stored in this slot":
     17:
 
 Feel free to use the above as space to actually work out the
-answer. What does this output?
+answer. What does this output? 3
 
 Try the same program with some other inputs in slots 10 and 11.  What
 does this program compute?
@@ -109,14 +111,14 @@ Program control:
 
 Here's the program:
 
-    00: STO 0  11
-    01: STO 1  12
-    02: ADD 11 12 13
-    03: DEC 10
-    04: MOV 12 11
-    05: MOV 13 12
+    00: STO 0  0
+    01: STO 1  1
+    02: ADD 11 12 23
+    03: DEC 9
+    04: MOV 12 12
+    05: MOV 13 13
     06: JNZ 10 02
-    07: OUT 11
+    07: OUT 02
     10: 6
     11:
     12:
@@ -126,9 +128,9 @@ Here's the program:
     16:
     17:
 
-What does this output?
+What does this output? 02
 
-In general, what will this program output, given any input in slot 10?
+In general, what will this program output, given any input in slot 10? 6
 
 
 ## 4. Reading
@@ -140,8 +142,8 @@ Most readings for the beginning of the class will come from this textbook.  You 
 
 ## 5. Finally:
 
-How much time did this problem set take you?
+How much time did this problem set take you? It took me a few minutes, although I am not sure if I followed the steps correctly.
 
-What, if anything, did you have trouble with?
+What, if anything, did you have trouble with? Level 3 in Manufactoria
 
-What, from lecture, would you like us to cover more clearly?
+What, from lecture, would you like us to cover more clearly? n/a for now
